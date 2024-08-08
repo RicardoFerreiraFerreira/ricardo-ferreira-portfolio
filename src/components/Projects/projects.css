@@ -1,0 +1,12 @@
+.project-title-image {
+    font-size: 2rem;
+}
+
+
+.projects-image {
+    border-radius: 4px;
+}
+
+.projects-image-container:hover {
+    transform: scale(1.15);
+}

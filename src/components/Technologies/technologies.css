@@ -1,0 +1,23 @@
+.technologies-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;   
+    list-style: none;
+    margin: 2em 0;
+}
+  
+.technologies-frame {
+    padding: 1.2rem 1rem 1rem 1rem;
+    margin: 1.2rem;
+    width: 6.5em;
+    height: 116px;
+    color: #ffffff;
+}
+  
+.technology {
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}

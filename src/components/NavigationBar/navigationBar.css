@@ -1,0 +1,79 @@
+.container-navigation {
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+}
+
+.navigation {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.navigation a.item-active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.navigation a {
+    float: left;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 30px;
+    align-items: center;
+}
+
+.navigation a:not(:first-child) {
+    float: right;
+}
+
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navigation .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navigation a:not(:first-child) {
+        display: none;
+    }
+
+    .navigation a.icon {
+        margin: 0;
+        float: right;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navigation.responsive {
+        position: relative;
+    }
+    
+    .navigation.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navigation.responsive a {
+        float: none;
+        display: flex;
+        text-align: left;
+        align-items: center;
+    }
+}

@@ -1,0 +1,38 @@
+.about-info-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-info {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    max-width: 50%;
+    margin-top: -0.2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.hero-container {
+    display: flex;
+    max-width: 120rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.hero-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 20rem;
+}
+
+.hero-img {
+    width: 100%;
+    transform: scale(.95);
+    border-radius: 60%;
+    border: 1vh solid #04AA6D;
+  }
